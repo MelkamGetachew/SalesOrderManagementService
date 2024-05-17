@@ -28,5 +28,4 @@ public class CustomerOrder {
 	@Embedded
 	private ShippingAddress shippingAddress;
 	private String notes;
-
 }

@@ -8,5 +8,4 @@ public interface SalesService {
 	void updateOrder(CustomerOrder customerOrder);
 	CustomerOrder getOrder(String orderId);
 	Customer getCustomerInformation(String customerId);
-
 }

@@ -41,7 +41,6 @@ public class SalesOrderController {
 	@GetMapping("/getCustomerInfo/{customerId}")
 	public ResponseEntity<?> getCustomerInfo( @PathVariable String customerId){
 		
-		
 		return new ResponseEntity<>(salesService.getCustomerInformation(customerId), HttpStatus.OK);
 	}
 }

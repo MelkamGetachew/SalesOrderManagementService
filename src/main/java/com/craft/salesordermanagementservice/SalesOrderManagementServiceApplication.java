@@ -20,5 +20,4 @@ public class SalesOrderManagementServiceApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(SalesOrderManagementServiceApplication.class, args);
 	}
-
 }

@@ -27,9 +27,8 @@ public class SalesServiceImpl implements SalesService {
 			customerOrder.setOrderId(id);
 			orderRepo.save(customerOrder);
 		}
-
 	}
-	// to create order Id
+	// to create unique order Id
 	public String generateRandomId() {
 		Random random = new Random();
 		String id;

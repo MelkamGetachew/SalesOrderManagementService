@@ -8,5 +8,4 @@ import com.craft.salesordermanagementservice.model.CustomerOrder;
 @Repository
 public interface OrderRepository extends JpaRepository <CustomerOrder,String> {
 	
-
 }
